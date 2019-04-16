@@ -20,7 +20,7 @@ with conn:
     fileName TEXT)")
 conn.close()
 
-conn = sqlite3.connect('drill103.db')
+conn = sqlite3.connect('drill.db')
 
 with conn:
     cur=conn.cursor()
@@ -33,7 +33,7 @@ with conn:
 
 conn.close()
 
-conn = sqlite3.connect('drill103.db')
+conn = sqlite3.connect('drill.db')
 
 with conn:
     cur=conn.cursor()
